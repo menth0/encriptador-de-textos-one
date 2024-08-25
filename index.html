@@ -13,7 +13,59 @@
         <script src="./js/app.js" defer></script>
         <title>Encriptador de Textos</title>
       </head>
-<body>
+      <body>
+        <header>
+          <a href="./">
+            <img src="./assets/Logo.svg" alt="Logo Alura" class="logo" />
+          </a>
+        </header>
     
-</body>
+        <div class="container">
+          <div class="subcontainer1">
+            <textarea
+              name="texto"
+              id="entradaTexto"
+              cols="30"
+              rows="10"
+              placeholder="Ingrese el texto aqui"
+            ></textarea>
+    
+            <div class="group1">
+              <div class="advertising">
+                <figure class="adv">
+                  <img
+                    src="./assets/bi_exclamation-circle-fill.svg"
+                    alt="signo de advertencia"
+                  />
+                  <p>Solo letras minúsculas y sin acentos</p>
+                </figure>
+              </div>
+              <div class="buttons">
+                <button class="primary-button encriptar">Encriptar</button>
+                <button class="secondary-button desencriptar">Desencriptar</button>
+              </div>
+            </div>
+          </div>
+    
+          <div class="subcontainer2">
+            <div class="card-container">
+              <div class="card">
+                <div class="card-body">
+                  <img src="assets/Muñeco.svg" alt="Muñeco" />
+                  <h3 class="card-title">Ningún mensaje fue encontrado</h3>
+                  <p class="card-text">
+                    Ingresa el texto que desees encriptar o desencriptar.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <footer>
+          <div id="nombreDesarrollador">
+            Desarrollado por E. Vega para el desafio ONE
+          </div>
+        </footer>
+      </body>
 </html>
